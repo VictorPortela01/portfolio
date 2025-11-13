@@ -3,11 +3,9 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About me </h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sobre mim </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm a dedicated student focused on frontend development, constantly
-            learning and building projects to improve my skills and create
-            amazing user experiences
+            Estudante de Análise e Desenvolvimento focado em soluções web completas. Construo e integro projetos de ponta a ponta (Fullstack), aprimorando minhas habilidades para entregar aplicações robustas e eficientes.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -33,10 +31,9 @@ const About = () => {
               </i>
             </div>
             
-            <h3 className="text-xl font-semibold mb-2">Students</h3>
+            <h3 className="text-xl font-semibold mb-2">Formação</h3>
             <p className="text-gray-600">
-              Systems Analysis and Development focused on modern web
-              technologies
+              Cursando Análise e Desenvolvimento de Sistemas, com foco prático na arquitetura de aplicações web modernas.
             </p>
           </div>
           <div className="text-center p-6">
@@ -44,9 +41,9 @@ const About = () => {
               <i className="text-3xl text-pink-600" data-fa-i2svg=""><svg className="w-8 svg-inline--fa fa-laptop-code" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="laptop-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"></path></svg></i>
             </div>
             
-            <h3 className="text-xl font-semibold mb-2">Frontend Focus</h3>
+            <h3 className="text-xl font-semibold mb-2">Foco Fullstack</h3>
             <p className="text-gray-600">
-              Specializing in React, JavaScript, HTML, CSS, and Tailwind CSS
+              Desenvolvimento de APIs RESTful (Node.js, Express, MongoDB) e construção de interfaces dinâmicas (React, JS, Tailwind CSS)
             </p>
           </div>
           <div className="text-center p-6">
@@ -54,9 +51,9 @@ const About = () => {
               <i className="text-3xl text-cyan-600" data-fa-i2svg=""><svg className="w-5 svg-inline--fa fa-rocket" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rocket" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7-20.5 11.8-33.8L24 288c-8.6 0-16.6-4.6-20.9-12.1s-4.2-16.7 .2-24.1l52.5-88.5c13-21.9 36.5-35.3 61.9-35.3l82.3 0c2.4-4 4.8-7.7 7.2-11.3C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7c-3.5 2.4-7.3 4.8-11.3 7.2v82.3c0 25.4-13.4 49-35.3 61.9l-88.5 52.5c-7.4 4.4-16.6 4.5-24.1 .2s-12.1-12.2-12.1-20.9V380.8c-14.1 4.9-26.4 8.9-35.7 11.9c-11.2 3.6-23.4 .5-31.8-7.8zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></i>
             </div>
             
-            <h3 className="text-xl font-semibold mb-2">Growing</h3>
+            <h3 className="text-xl font-semibold mb-2">Objetivo</h3>
             <p className="text-gray-600">
-              Seeking first opportunity to apply knowledge and grow with experienced professionals
+              Em busca da primeira oportunidade para aplicar meu conhecimento e contribuir ativamente em projetos de ponta a ponta.
             </p>
           </div>
         </div>

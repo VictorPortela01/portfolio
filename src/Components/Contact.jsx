@@ -6,13 +6,12 @@ const Contact = () => {
   return (
     <section id="contact" className="px-4 py-8 pb-12 bg-gray-900">
       <h2 className="text-2xl font-bold mb-6 text-center text-white">
-        Let's Connect
+        Entre em Contato
       </h2>
 
       <div className="max-w-xs md:max-w-sm mx-auto p-6 border border-gray-700 rounded-lg">
         <p className="text-white text-lg mb-6 text-center">
-          Ready to start my journey as a Frontend Developer. Let's build
-          something amazing together!
+          Entre em contato e vamos conversar sobre como posso agregar ao seu time
         </p>
 
         <div className="grid grid-cols-2 gap-4">
@@ -37,7 +36,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="mailto:victorportela01@gmail.com"
+            href="mailto:victorportela1010@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,12 +55,7 @@ const Contact = () => {
             </span>
           </a>
         </div>
-        <button className="mt-4 w-full bg-indigo-500 hover:bg-indigo-600 text-white py-2 rounded-lg transition-colors">
-          <IoIosSend className="mr-2 w-5 h-5 inline-block" />
-          <a href="mailto:victorportela1010@gmail.com?subject=Contato%20pelo%20Portfólio&body=Olá%20Victor!">
-            Send Message
-          </a>
-        </button>
+        
       </div>
     </section>
   );

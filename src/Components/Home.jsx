@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
-import  foto  from "../Components/images/perfil.jpeg";
-
+import foto from "../Components/images/perfil.jpeg";
 
 const Home = () => {
   const handleDownload = () => {
@@ -24,32 +23,29 @@ const Home = () => {
 
           {/* Título */}
           <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Frontend Developer <span className="text-indigo-500">Student</span>
+            Desenvolvedor<span className="text-indigo-500">Fullstack</span>
           </h1>
 
           {/* Descrição */}
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Systems Analysis and Development student passionate about creating
-            beautiful, functional interfaces with React, JavaScript, and modern
-            web technologies.
+            Estudante de Análise e Desenvolvimento de Sistemas. Desenvolvedor Fullstack em formação, criando e integrando APIs RESTful (Node.js, MongoDB) com interfaces de usuário dinâmicas (React).
           </p>
 
           {/* Botões */}
           <div className="flex gap-4">
             <Link to="projects" smooth={true} duration={500}>
-              
-                <button className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-600 transition-colors font-medium cursor-pointer">
-                  View Projects
-                </button>
-              
+              <button className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-600 transition-colors font-medium cursor-pointer">
+                View Projects
+              </button>
             </Link>
-  
+
             <button
               className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-white transition-colors font-medium cursor-pointer"
               onClick={handleDownload}
             >
-              <a href="/Curriculo_Victor_Portela.pdf"
-                download>Download CV</a>
+              <a href="/Curriculo_Victor_Portela.pdf" download>
+                Download CV
+              </a>
             </button>
           </div>
         </div>
