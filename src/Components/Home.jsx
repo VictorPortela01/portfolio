@@ -18,12 +18,12 @@ const Home = () => {
           {/* Saudação */}
           <div className="flex items-center gap-2 mb-4">
             <span className="text-2xl">👋</span>
-            <span className="text-indigo-600 font-medium">Hi, I'm Victor</span>
+            <span className="text-indigo-600 font-medium">Oi, Eu sou Victor</span>
           </div>
 
           {/* Título */}
           <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Desenvolvedor<span className="text-indigo-500">Fullstack</span>
+            Desenvolvedor <span className="text-indigo-500">Fullstack</span>
           </h1>
 
           {/* Descrição */}
