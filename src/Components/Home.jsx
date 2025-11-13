@@ -4,7 +4,7 @@ import foto from "../Components/images/perfil.jpeg";
 const Home = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../public/Curriculo_Victor_Portela.pdf";
+    link.href = "/Curriculo_Victor_Portela.pdf";
     link.download = "Curriculo_Victor_Portela.pdf";
     document.body.appendChild(link);
     link.click();
@@ -43,7 +43,7 @@ const Home = () => {
               className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-white transition-colors font-medium cursor-pointer"
               onClick={handleDownload}
             >
-              <a href="/Curriculo_Victor_Portela.pdf" download>
+              <a href="/Curriculo_Victor_Portela.pdf" download="Curriculo_Victor_Portela.pdf">
                 Download CV
               </a>
             </button>
